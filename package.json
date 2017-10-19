@@ -1,0 +1,28 @@
+{
+  "name": "aspaclar-node",
+  "version": "1.0.0",
+  "description": "aspaclar's nodejs server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tal Sitton",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongojs": "^2.4.0",
+    "mongojs-models": "^0.1.4",
+    "mongoose": "^4.11.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}

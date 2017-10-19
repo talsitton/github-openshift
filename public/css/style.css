@@ -1,0 +1,43 @@
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#renderCanvas1 {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+#renderCanvas2 {
+  position:absolute;
+    width: 1%;
+    height: 1%;
+    left:0%;
+    touch-action: none;
+}
+
+#fpsLabel {
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    cursor: default;
+}
+
+
+p {
+  position:absolute;
+  top: 0px;
+}
+
+#cameraSwitchBtn{
+  display: none;
+    position: absolute;
+    top: 1em;
+    width: 20%;
+    left: 40%;
+}
